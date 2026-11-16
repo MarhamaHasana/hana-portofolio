@@ -1,176 +1,574 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Marhama Hasana — Business Analyst and UI/UX Designer portfolio.">
-  <meta name="theme-color" content="#ffffff">
-  <title>Marhama Hasana | Business Analyst & UI/UX Designer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" defer></script>
-  <script src="assets/js/script.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="Marhama Hasana home">
-        <span class="brand-mark">M<span>.</span></span>
-        <span class="brand-name">marhama<span>hasana</span></span>
-      </a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a class="nav-link active" href="#home">Home</a>
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#journey">My Journey</a>
-        <a class="nav-link nav-contact" href="#contact">Let's Talk <ion-icon name="arrow-up-outline"></ion-icon></a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero section" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="eyebrow-dot"></span> Fresh graduate · Open to opportunities</div>
-          <h1>Hi, I'm <span class="highlight">Marhama</span>!<span class="wave">✦</span></h1>
-          <p class="hero-role">Business Analyst <span>|</span> UI/UX Designer <span>|</span> Business Process Analysis &amp; User-Centered Design</p>
-          <p class="hero-description">I enjoy understanding how things work, identifying what can be improved, and shaping ideas into clear, useful digital experiences.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore my work <ion-icon name="arrow-forward-outline"></ion-icon></a>
-            <a class="button button-secondary" href="#contact">Get in touch</a>
-          </div>
-          <div class="hero-socials">
-            <span>Find me on</span>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="https://github.com/MarhamaHasana" target="_blank" rel="noreferrer" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
-            <a href="mailto:emailkamu@gmail.com" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <div class="hero-blob"></div>
-          <div class="photo-frame">
-            <img src="assets/images/my-avatar.jpg" alt="Portrait of Marhama Hasana" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
-            <div class="photo-placeholder"><ion-icon name="person-outline"></ion-icon><span>Add your photo</span></div>
-          </div>
-          <div class="floating-note note-top"><span>✳</span> Curious mind</div>
-          <div class="floating-note note-bottom"><span>♡</span> Thoughtful solutions</div>
-          <span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✧</span>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Marhama Hasana — Business Analyst and UI/UX Designer portfolio."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Marhama Hasana | Business Analyst & UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Marhama Hasana home">
+          <span class="brand-mark">M<span>.</span></span>
+          <span class="brand-name">marhama<span>hasana</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#journey">My Journey</a>
+          <a class="nav-link nav-contact" href="#contact"
+            >Let's Talk <ion-icon name="arrow-up-outline"></ion-icon
+          ></a>
+        </nav>
       </div>
-      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
-    </section>
+    </header>
 
-    <section class="section about-section" id="about">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">A little introduction</p>
-          <h2>More about <span>me</span></h2>
-          <p class="section-lead">A mix of analytical thinking, structured problem-solving, and a soft spot for thoughtful design.</p>
-        </div>
-        <div class="about-grid">
-          <div class="about-main">
-            <p class="about-greeting">Hello there! <span>☁</span></p>
-            <p>I’m Marhama Hasana, an Information Systems graduate from Universitas Ahmad Dahlan with an interest in Business Analysis and UI/UX Design.</p>
-            <p>I enjoy exploring user and business needs, mapping processes, and translating findings into structured requirements or user-friendly interface concepts. I value clear communication, thoughtful research, and solutions that make sense for the people who use them.</p>
-            <div class="education-chip"><ion-icon name="school-outline"></ion-icon><span><strong>Universitas Ahmad Dahlan</strong><small>Information Systems · GPA 3.75/4.00</small></span></div>
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> Fresh graduate · Open to
+              opportunities
+            </div>
+            <h1>
+              Hi, I'm <span class="highlight">Marhama</span>!<span class="wave"
+                >✦</span
+              >
+            </h1>
+            <p class="hero-role">
+              Business Analyst <span>|</span> UI/UX Designer
+              <span>|</span> Business Process Analysis &amp; User-Centered
+              Design
+            </p>
+            <p class="hero-description">
+              I enjoy understanding how things work, identifying what can be
+              improved, and shaping ideas into clear, useful digital
+              experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >Explore my work
+                <ion-icon name="arrow-forward-outline"></ion-icon
+              ></a>
+              <a class="button button-secondary" href="#contact"
+                >Get in touch</a
+              >
+            </div>
+            <div class="hero-socials">
+              <span>Find me on</span>
+              <a
+                href="www.linkedin.com/in/marhama-hasana"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+              <a
+                href="https://github.com/MarhamaHasana"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                ><ion-icon name="logo-github"></ion-icon
+              ></a>
+              <a href="mailto:hanamarhama26@gmail.com" aria-label="Email"
+                ><ion-icon name="mail-outline"></ion-icon
+              ></a>
+            </div>
           </div>
-          <div class="focus-panel">
-            <h3>What I’m interested in</h3>
-            <article class="focus-item"><span class="focus-icon blue"><ion-icon name="git-branch-outline"></ion-icon></span><div><h4>Business &amp; System Analysis</h4><p>Understanding needs, mapping workflows, and documenting system requirements.</p></div></article>
-            <article class="focus-item"><span class="focus-icon pink"><ion-icon name="color-palette-outline"></ion-icon></span><div><h4>UI/UX Design</h4><p>Creating intuitive interfaces through user-centered thinking and prototyping.</p></div></article>
-            <article class="focus-item"><span class="focus-icon lavender"><ion-icon name="analytics-outline"></ion-icon></span><div><h4>Process Improvement</h4><p>Looking at existing processes and finding opportunities to make them clearer and more effective.</p></div></article>
+          <div class="hero-art">
+            <div class="hero-blob"></div>
+            <div class="photo-frame">
+              <img
+                src="assets/images/my-avatar.jpg"
+                alt="Portrait of Marhama Hasana"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'grid';
+                "
+              />
+              <div class="photo-placeholder">
+                <ion-icon name="person-outline"></ion-icon
+                ><span>Add your photo</span>
+              </div>
+            </div>
+            <div class="floating-note note-top">
+              <span>✳</span> Curious mind
+            </div>
+            <div class="floating-note note-bottom">
+              <span>♡</span> Thoughtful solutions
+            </div>
+            <span class="sparkle sparkle-one">✦</span
+            ><span class="sparkle sparkle-two">✧</span>
           </div>
         </div>
-      </div>
-    </section>
+        <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+      </section>
 
-    <section class="section projects-section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">A selection of my work</p>
-          <h2>Projects &amp; <span>case studies</span></h2>
-          <p class="section-lead">A few projects that reflect my interests in designing digital experiences and analyzing business needs.</p>
-        </div>
-        <div class="project-toolbar">
-          <div class="filter-group" role="group" aria-label="Filter projects">
-            <button class="filter-btn active" data-filter="all" type="button">All projects <span>6</span></button>
-            <button class="filter-btn" data-filter="uiux" type="button">UI/UX Design <span>3</span></button>
-            <button class="filter-btn" data-filter="business" type="button">Business Analysis <span>3</span></button>
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">A little introduction</p>
+            <h2>More about <span>me</span></h2>
+            <p class="section-lead">
+              A mix of analytical thinking, structured problem-solving, and a
+              soft spot for thoughtful design.
+            </p>
           </div>
-          <p class="project-count" aria-live="polite">Showing 6 projects</p>
+          <div class="about-grid">
+            <div class="about-main">
+              <p class="about-greeting">Hello there! <span>☁</span></p>
+              <p>
+                I’m Marhama Hasana, an Information Systems graduate from
+                Universitas Ahmad Dahlan with an interest in Business Analysis
+                and UI/UX Design.
+              </p>
+              <p>
+                I enjoy exploring user and business needs, mapping processes,
+                and translating findings into structured requirements or
+                user-friendly interface concepts. I value clear communication,
+                thoughtful research, and solutions that make sense for the
+                people who use them.
+              </p>
+              <div class="education-chip">
+                <ion-icon name="school-outline"></ion-icon
+                ><span
+                  ><strong>Universitas Ahmad Dahlan</strong
+                  ><small>Information Systems · GPA 3.75/4.00</small></span
+                >
+              </div>
+            </div>
+            <div class="focus-panel">
+              <h3>What I’m interested in</h3>
+              <article class="focus-item">
+                <span class="focus-icon blue"
+                  ><ion-icon name="git-branch-outline"></ion-icon
+                ></span>
+                <div>
+                  <h4>Business &amp; System Analysis</h4>
+                  <p>
+                    Understanding needs, mapping workflows, and documenting
+                    system requirements.
+                  </p>
+                </div>
+              </article>
+              <article class="focus-item">
+                <span class="focus-icon pink"
+                  ><ion-icon name="color-palette-outline"></ion-icon
+                ></span>
+                <div>
+                  <h4>UI/UX Design</h4>
+                  <p>
+                    Creating intuitive interfaces through user-centered thinking
+                    and prototyping.
+                  </p>
+                </div>
+              </article>
+              <article class="focus-item">
+                <span class="focus-icon lavender"
+                  ><ion-icon name="analytics-outline"></ion-icon
+                ></span>
+                <div>
+                  <h4>Process Improvement</h4>
+                  <p>
+                    Looking at existing processes and finding opportunities to
+                    make them clearer and more effective.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <div class="project-grid">
-          <article class="project-card" data-category="uiux">
-            <div class="project-image image-quran"><img src="assets/images/project-1.jpg" alt="Qur'anify project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">UI/UX DESIGN</span></div>
-            <div class="project-content"><div class="project-meta"><span>Mobile application</span><span class="project-number">01</span></div><h3>Qur'anify</h3><p>UI/UX design for an Al-Qur'an application, with a focus on presenting a thoughtful digital reading experience.</p><div class="project-tags"><span>UI Design</span><span>Competition</span></div><div class="project-award"><ion-icon name="trophy-outline"></ion-icon> Finalist · MTQMN Nasional #3</div></div>
-          </article>
-          <article class="project-card" data-category="uiux">
-            <div class="project-image image-detecting"><img src="assets/images/project-2.jpg" alt="DetecTing project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">UI/UX DESIGN</span></div>
-            <div class="project-content"><div class="project-meta"><span>Health application</span><span class="project-number">02</span></div><h3>DetecTing</h3><p>UI/UX design for an application aimed at supporting the prevention of stunting in children.</p><div class="project-tags"><span>UI/UX</span><span>Health</span></div><div class="project-award"><ion-icon name="trophy-outline"></ion-icon> Finalist · ITCC UI/UX Design National Competition</div></div>
-          </article>
-          <article class="project-card" data-category="uiux">
-            <div class="project-image image-resqr"><img src="assets/images/project-3.jpg" alt="ResQr project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">UI/UX DESIGN</span></div>
-            <div class="project-content"><div class="project-meta"><span>Food sustainability</span><span class="project-number">03</span></div><h3>ResQr</h3><p>UI/UX concept for a food waste application, exploring a digital approach to food waste reduction.</p><div class="project-tags"><span>UI/UX</span><span>Food Waste</span></div></div>
-          </article>
-          <article class="project-card" data-category="business">
-            <div class="project-image image-disaster"><img src="assets/images/project-4.jpg" alt="Smart Disaster Mitigation project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">SYSTEM ANALYSIS &amp; DESIGN</span></div>
-            <div class="project-content"><div class="project-meta"><span>Web platform</span><span class="project-number">04</span></div><h3>Smart Disaster Mitigation Web Platform</h3><p>Website platform planning to support disaster information delivery and river-condition monitoring through website information integrated with IoT sensor data.</p><div class="project-tags"><span>Requirements Analysis</span><span>System Flow</span></div><div class="project-note">My focus: website requirements analysis and system flow design.</div></div>
-          </article>
-          <article class="project-card" data-category="business">
-            <div class="project-image image-distrilink"><img src="assets/images/project-5.jpg" alt="Distrilink project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">INDEPENDENT CASE STUDY</span></div>
-            <div class="project-content"><div class="project-meta"><span>Sales Force Automation</span><span class="project-number">05</span></div><h3>Distrilink Sales Automation Platform</h3><p>Independent system-analysis case study focused on sales activities, customer-visit validation, and order recording.</p><div class="project-tags"><span>System Analysis</span><span>Operational Workflow</span></div><div class="project-note">Independent case study · Self-initiated analysis.</div></div>
-          </article>
-          <article class="project-card" data-category="business">
-            <div class="project-image image-hr"><img src="assets/images/project-6.jpg" alt="HR Management System project preview" onerror="this.style.display='none';this.parentElement.classList.add('no-image');"><span class="image-label">INDEPENDENT CASE STUDY</span></div>
-            <div class="project-content"><div class="project-meta"><span>Human resources</span><span class="project-number">06</span></div><h3>HR Management System</h3><p>Independent case study on digitizing employee administration, especially attendance, break-time management, and leave requests.</p><div class="project-tags"><span>Business Process</span><span>System Analysis</span></div><div class="project-note">Independent case study · Self-initiated analysis.</div></div>
-          </article>
-        </div>
-        <p class="project-footnote">Project previews can be replaced with your own screenshots or mockups in the <code>assets/images</code> folder.</p>
-      </div>
-    </section>
+      </section>
 
-    <section class="section journey-section" id="journey">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-kicker">Experience &amp; growth</p>
-          <h2>My <span>journey</span></h2>
-          <p class="section-lead">Experiences and milestones that have shaped the way I learn, collaborate, and work.</p>
-        </div>
-        <div class="journey-grid">
-          <div class="journey-column">
-            <div class="column-title"><span class="column-icon"><ion-icon name="briefcase-outline"></ion-icon></span><h3>Experience</h3></div>
-            <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">Apr 2025 – Jun 2026</p><h4>Student Employee – Data Team</h4><p class="timeline-place">LPSI, Universitas Ahmad Dahlan</p><p>Supported data recapitulation and reporting activities, including organizing institutional data and assisting with administrative services.</p></article>
-            <article class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">Freelance</p><h4>Graphic Designer</h4><p>Created more than 50 graphic design materials for different needs and visual communication purposes.</p></article>
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">A selection of my work</p>
+            <h2>Projects &amp; <span>case studies</span></h2>
+            <p class="section-lead">
+              A few projects that reflect my interests in designing digital
+              experiences and analyzing business needs.
+            </p>
           </div>
-          <div class="journey-column">
-            <div class="column-title"><span class="column-icon pink-icon"><ion-icon name="ribbon-outline"></ion-icon></span><h3>Achievements</h3></div>
-            <article class="timeline-item"><span class="timeline-dot pink-dot"></span><p class="timeline-date">2024</p><h4>1st Place · Faculty Outstanding Student</h4><p>Mahasiswa Berprestasi FAST, Universitas Ahmad Dahlan.</p></article>
-            <article class="timeline-item"><span class="timeline-dot pink-dot"></span><p class="timeline-date">2023</p><h4>2nd Place · Faculty Outstanding Student</h4><p>Mahasiswa Berprestasi FAST, Universitas Ahmad Dahlan.</p></article>
-            <article class="timeline-item"><span class="timeline-dot pink-dot"></span><p class="timeline-date">National competition</p><h4>U-DARE 3.0 · 1st Place</h4><p>Disaster Education Media Competition, Universitas Syiah Kuala.</p></article>
+          <div class="project-toolbar">
+            <div class="filter-group" role="group" aria-label="Filter projects">
+              <button class="filter-btn active" data-filter="all" type="button">
+                All projects <span>6</span>
+              </button>
+              <button class="filter-btn" data-filter="uiux" type="button">
+                UI/UX Design <span>3</span>
+              </button>
+              <button class="filter-btn" data-filter="business" type="button">
+                Business Analysis <span>3</span>
+              </button>
+            </div>
+            <p class="project-count" aria-live="polite">Showing 6 projects</p>
           </div>
+          <div class="project-grid">
+            <article class="project-card" data-category="uiux">
+              <div class="project-image image-quran">
+                <img
+                  src="assets/images/project-1.jpg"
+                  alt="Qur'anify project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">UI/UX DESIGN</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Mobile application</span
+                  ><span class="project-number">01</span>
+                </div>
+                <h3>Qur'anify</h3>
+                <p>
+                  UI/UX design for an Al-Qur'an application, with a focus on
+                  presenting a thoughtful digital reading experience.
+                </p>
+                <div class="project-tags">
+                  <span>UI Design</span><span>Competition</span>
+                </div>
+                <div class="project-award">
+                  <ion-icon name="trophy-outline"></ion-icon> Finalist · MTQMN
+                  Nasional #3
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="uiux">
+              <div class="project-image image-detecting">
+                <img
+                  src="assets/images/project-2.jpg"
+                  alt="DetecTing project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">UI/UX DESIGN</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Health application</span
+                  ><span class="project-number">02</span>
+                </div>
+                <h3>DetecTing</h3>
+                <p>
+                  UI/UX design for an application aimed at supporting the
+                  prevention of stunting in children.
+                </p>
+                <div class="project-tags">
+                  <span>UI/UX</span><span>Health</span>
+                </div>
+                <div class="project-award">
+                  <ion-icon name="trophy-outline"></ion-icon> Finalist · ITCC
+                  UI/UX Design National Competition
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="uiux">
+              <div class="project-image image-resqr">
+                <img
+                  src="assets/images/project-3.png"
+                  alt="ResQr project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">UI/UX DESIGN</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Food sustainability</span
+                  ><span class="project-number">03</span>
+                </div>
+                <h3>ResQr</h3>
+                <p>
+                  UI/UX concept for a food waste application, exploring a
+                  digital approach to food waste reduction.
+                </p>
+                <div class="project-tags">
+                  <span>UI/UX</span><span>Food Waste</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="business">
+              <div class="project-image image-disaster">
+                <img
+                  src="assets/images/project-4.jpg"
+                  alt="Smart Disaster Mitigation project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">SYSTEM ANALYSIS &amp; DESIGN</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Web platform</span
+                  ><span class="project-number">04</span>
+                </div>
+                <h3>Smart Disaster Mitigation Web Platform</h3>
+                <p>
+                  Website platform planning to support disaster information
+                  delivery and river-condition monitoring through website
+                  information integrated with IoT sensor data.
+                </p>
+                <div class="project-tags">
+                  <span>Requirements Analysis</span><span>System Flow</span>
+                </div>
+                <div class="project-note">
+                  My focus: website requirements analysis and system flow
+                  design.
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="business">
+              <div class="project-image image-distrilink">
+                <img
+                  src="assets/images/project-5.jpg"
+                  alt="Distrilink project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">INDEPENDENT CASE STUDY</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Sales Force Automation</span
+                  ><span class="project-number">05</span>
+                </div>
+                <h3>Distrilink Sales Automation Platform</h3>
+                <p>
+                  Independent system-analysis case study focused on sales
+                  activities, customer-visit validation, and order recording.
+                </p>
+                <div class="project-tags">
+                  <span>System Analysis</span><span>Operational Workflow</span>
+                </div>
+                <div class="project-note">
+                  Independent case study · Self-initiated analysis.
+                </div>
+              </div>
+            </article>
+            <article class="project-card" data-category="business">
+              <div class="project-image image-hr">
+                <img
+                  src="assets/images/project-6.jpg"
+                  alt="HR Management System project preview"
+                  onerror="
+                    this.style.display = 'none';
+                    this.parentElement.classList.add('no-image');
+                  "
+                /><span class="image-label">INDEPENDENT CASE STUDY</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Human resources</span
+                  ><span class="project-number">06</span>
+                </div>
+                <h3>HR Management System</h3>
+                <p>
+                  Independent case study on digitizing employee administration,
+                  especially attendance, break-time management, and leave
+                  requests.
+                </p>
+                <div class="project-tags">
+                  <span>Business Process</span><span>System Analysis</span>
+                </div>
+                <div class="project-note">
+                  Independent case study · Self-initiated analysis.
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="project-footnote">
+            Project previews can be replaced with your own screenshots or
+            mockups in the <code>assets/images</code> folder.
+          </p>
         </div>
-        <div class="skills-strip">
-          <div><p class="section-kicker">Tools &amp; skills</p><h3>Things I work with</h3></div>
-          <div class="skill-list"><span>Figma</span><span>UML &amp; ERD</span><span>Microsoft Excel</span><span>Google Workspace</span><span>MySQL</span><span>Canva</span><span>Process Mapping</span><span>Prototyping</span></div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="contact-section section" id="contact">
-      <div class="container contact-card">
-        <div class="contact-copy"><p class="section-kicker">Have a project in mind?</p><h2>Let's make something <span>meaningful.</span></h2><p>I'm always happy to connect, exchange ideas, or explore opportunities to collaborate.</p><a class="button button-light" href="mailto:emailkamu@gmail.com">Say hello <ion-icon name="paper-plane-outline"></ion-icon></a></div>
-        <div class="contact-details"><div class="contact-detail"><ion-icon name="mail-outline"></ion-icon><div><small>Email</small><a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a></div></div><div class="contact-detail"><ion-icon name="logo-linkedin"></ion-icon><div><small>LinkedIn</small><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect with me</a></div></div><div class="contact-detail"><ion-icon name="logo-github"></ion-icon><div><small>GitHub</small><a href="https://github.com/MarhamaHasana" target="_blank" rel="noreferrer">MarhamaHasana</a></div></div><div class="contact-detail"><ion-icon name="location-outline"></ion-icon><div><small>Based in</small><span>Yogyakarta, Indonesia</span></div></div></div>
-        <span class="contact-decoration">✳</span>
+      <section class="section journey-section" id="journey">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Experience &amp; growth</p>
+            <h2>My <span>journey</span></h2>
+            <p class="section-lead">
+              Experiences and milestones that have shaped the way I learn,
+              collaborate, and work.
+            </p>
+          </div>
+          <div class="journey-grid">
+            <div class="journey-column">
+              <div class="column-title">
+                <span class="column-icon"
+                  ><ion-icon name="briefcase-outline"></ion-icon
+                ></span>
+                <h3>Experience</h3>
+              </div>
+              <article class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="timeline-date">Apr 2025 – Jun 2026</p>
+                <h4>Student Employee – Data Team</h4>
+                <p class="timeline-place">LPSI, Universitas Ahmad Dahlan</p>
+                <p>
+                  Supported data recapitulation and reporting activities,
+                  including organizing institutional data and assisting with
+                  administrative services.
+                </p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="timeline-date">Freelance</p>
+                <h4>Graphic Designer</h4>
+                <p>
+                  Created more than 50 graphic design materials for different
+                  needs and visual communication purposes.
+                </p>
+              </article>
+            </div>
+            <div class="journey-column">
+              <div class="column-title">
+                <span class="column-icon pink-icon"
+                  ><ion-icon name="ribbon-outline"></ion-icon
+                ></span>
+                <h3>Achievements</h3>
+              </div>
+              <article class="timeline-item">
+                <span class="timeline-dot pink-dot"></span>
+                <p class="timeline-date">2024</p>
+                <h4>1st Place · Faculty Outstanding Student</h4>
+                <p>Mahasiswa Berprestasi FAST, Universitas Ahmad Dahlan.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-dot pink-dot"></span>
+                <p class="timeline-date">2023</p>
+                <h4>2nd Place · Faculty Outstanding Student</h4>
+                <p>Mahasiswa Berprestasi FAST, Universitas Ahmad Dahlan.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-dot pink-dot"></span>
+                <p class="timeline-date">National competition</p>
+                <h4>U-DARE 3.0 · 1st Place</h4>
+                <p>
+                  Disaster Education Media Competition, Universitas Syiah Kuala.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="skills-strip">
+            <div>
+              <p class="section-kicker">Tools &amp; skills</p>
+              <h3>Things I work with</h3>
+            </div>
+            <div class="skill-list">
+              <span>Figma</span><span>UML &amp; ERD</span
+              ><span>Microsoft Excel</span><span>Google Workspace</span
+              ><span>MySQL</span><span>Canva</span><span>Process Mapping</span
+              ><span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div class="container contact-card">
+          <div class="contact-copy">
+            <p class="section-kicker">Have a project in mind?</p>
+            <h2>Let's make something <span>meaningful.</span></h2>
+            <p>
+              I'm always happy to connect, exchange ideas, or explore
+              opportunities to collaborate.
+            </p>
+            <a class="button button-light" href="mailto:emailkamu@gmail.com"
+              >Say hello <ion-icon name="paper-plane-outline"></ion-icon
+            ></a>
+          </div>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <ion-icon name="mail-outline"></ion-icon>
+              <div>
+                <small>Email</small
+                ><a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <div>
+                <small>LinkedIn</small
+                ><a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Connect with me</a
+                >
+              </div>
+            </div>
+            <div class="contact-detail">
+              <ion-icon name="logo-github"></ion-icon>
+              <div>
+                <small>GitHub</small
+                ><a
+                  href="https://github.com/MarhamaHasana"
+                  target="_blank"
+                  rel="noreferrer"
+                  >MarhamaHasana</a
+                >
+              </div>
+            </div>
+            <div class="contact-detail">
+              <ion-icon name="location-outline"></ion-icon>
+              <div>
+                <small>Based in</small><span>Yogyakarta, Indonesia</span>
+              </div>
+            </div>
+          </div>
+          <span class="contact-decoration">✳</span>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#home"
+          ><span class="brand-mark">M<span>.</span></span
+          ><span class="brand-name">marhama<span>hasana</span></span></a
+        >
+        <p>
+          Designed with curiosity &amp; a little bit of sparkle <span>♡</span>
+        </p>
+        <p>© <span id="year"></span> Marhama Hasana</p>
       </div>
-    </section>
-  </main>
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">M<span>.</span></span><span class="brand-name">marhama<span>hasana</span></span></a><p>Designed with curiosity &amp; a little bit of sparkle <span>♡</span></p><p>© <span id="year"></span> Marhama Hasana</p></div></footer>
-  <a class="back-to-top" href="#home" aria-label="Back to top"><ion-icon name="arrow-up-outline"></ion-icon></a>
-</body>
+    </footer>
+    <a class="back-to-top" href="#home" aria-label="Back to top"
+      ><ion-icon name="arrow-up-outline"></ion-icon
+    ></a>
+  </body>
 </html>
