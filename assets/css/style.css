@@ -1,4 +1,4 @@
-/* Marhama Hasana Portfolio — clean, cheerful & feminine */
+
 :root {
   --ink: #24364b;
   --ink-soft: #536579;
@@ -253,4 +253,35 @@ h1 { margin: 22px 0 13px; font-size: clamp(42px, 5.5vw, 67px); letter-spacing: -
   box-sizing: border-box;
 }
 
+
+/* JOURNEY SECTION - FOUR COLUMN LAYOUT */
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px 30px;
+  align-items: stretch;
+}
+
+.journey-column {
+  min-width: 0;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1200px) {
+  .journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 42px 36px;
+  }
+}
+@media (max-width: 767px) {
+  .journey-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
 
